@@ -12,9 +12,6 @@ const login = async (req, res, next) => {
 
         const result = await authService.login({ email, password });
         res.json(result);
-<<<<<<< HEAD
-
-=======
     } catch (error) {
         next(error);
     }
@@ -37,21 +34,7 @@ const register = async (req, res, next) => {
     }
 };
 
-const me = async (req, res, next) => {
-    try {
-        const result = await authService.me(req.userId);
-        res.json(result);
->>>>>>> bcf5ab1479cfc1598961efd5ab5e0c5e61c4dbdc
-    } catch (error) {
-        next(error);
-    }
-};
-
 export {
     login,
-<<<<<<< HEAD
-=======
     register,
-    me,
->>>>>>> bcf5ab1479cfc1598961efd5ab5e0c5e61c4dbdc
 };
