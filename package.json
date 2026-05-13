@@ -7,15 +7,22 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "dev": "nodemon src/index.js",
     "start": "node src/index.js",
     "migrate:deploy": "prisma migrate deploy"
+=======
+    "dev": "nodemon src/index.js"
+>>>>>>> bcf5ab1479cfc1598961efd5ab5e0c5e61c4dbdc
   },
   "dependencies": {
     "@prisma/adapter-pg": "^7.7.0",
     "@prisma/client": "^7.7.0",
     "bcrypt": "^6.0.0",
+<<<<<<< HEAD
     "bcryptjs": "^3.0.3",
+=======
+>>>>>>> bcf5ab1479cfc1598961efd5ab5e0c5e61c4dbdc
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "jsonwebtoken": "^9.0.3",
